@@ -1,14 +1,11 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "santaai",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "server": "nodemon server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
