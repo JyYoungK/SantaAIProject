@@ -1,4 +1,4 @@
-import bot from "./assets/bot.svg";
+import bot from "./assets/santa.png";
 import user from "./assets/user.svg";
 
 const form = document.querySelector("form");
@@ -100,7 +100,7 @@ const handleSubmit = async (e) => {
 
   if (response.ok) {
     const data = await response.json();
-    const parsedData = data.bot.trim(); // trims any trailing spaces/'\n'
+    const parsedData = "Hohoho! " + data.bot.trim(); // trims any trailing spaces/'\n'
 
     typeText(messageDiv, parsedData);
   } else {
