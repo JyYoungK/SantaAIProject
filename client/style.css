@@ -300,7 +300,6 @@ svg {
   position: relative;
   padding: 20% 5%;
   /* border-bottom: 2px solid var(--color-pink); */
-  padding-bottom: 400px;
 }
 
 .section-santa-wrapper {
@@ -344,7 +343,7 @@ svg {
   font-size: 40px;
   font-weight: 500;
   transform-origin: left;
-  transform: skewY(25deg);
+  /* transform: skewY(25deg); */
   z-index: 5;
   text-transform: uppercase;
   color: var(--color-pink);
