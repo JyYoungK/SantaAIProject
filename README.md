@@ -29,10 +29,12 @@ cd to client and server folder then
 - Create `.env` file inside server
 - Fill in the followings
 - OPENAI_API_KEY= https://openai.com/api/ <-- Go to this link and Sign Up, then you should get API Access Key. Copy it without the ""
+- Go to script.js, line 88 inside client and change the line to following.
+- const response = await fetch('https://localhost:5000/', {
+- Local development server: (start the server first)
+  npm run server
 - Local development client:
   npm run dev
-- Local development server:
-  npm run server
 
 ### To update
 

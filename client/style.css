@@ -499,19 +499,14 @@ svg {
   flex: 1;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
   padding-bottom: 20px;
   scroll-behavior: smooth;
-}
-
-/* hides scrollbar */
-#chat_container::-webkit-scrollbar {
-  display: none;
 }
 
 .wrapper {
