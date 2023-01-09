@@ -1,4 +1,4 @@
-# santaAI Project
+# SantaAI Project
 
 - Demo URL: https://santaai.vercel.app/
 
