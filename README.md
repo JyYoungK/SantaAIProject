@@ -6,8 +6,6 @@
 
 - Designed for Desktop only.
 
-## Main Stack - M.E.R.N
-
 ### Frontend
 
 - HTML/CSS/JS(three.js) for the main frame work
