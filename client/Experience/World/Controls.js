@@ -165,10 +165,10 @@ export default class Controls {
           { x: 0, y: 0, z: 0 },
           {
             x: () => {
-              return this.sizes.width * 0.01;
+              return this.sizes.width * 0.0145;
             },
             z: () => {
-              return 4;
+              return 3.7;
             },
           }
         );
@@ -183,8 +183,8 @@ export default class Controls {
             invalidateOnRefresh: true,
           },
         }).to(this.camera.orthographicCamera.position, {
-          x: 1.9,
-          z: 0.005,
+          x: 1.55,
+          z: 0.0001,
         });
       },
 

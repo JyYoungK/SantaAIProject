@@ -433,6 +433,7 @@ svg {
 
 .blue-text {
   color: var(--color-blue);
+  margin-top: 10px;
 }
 
 .blue-border {
@@ -461,6 +462,10 @@ svg {
   .section {
     width: 100%;
   }
+  .section-title-text {
+    font-size: 22px;
+    font-weight: 500;
+  }
   .progress-bar-wrapper-left {
     right: 0;
     left: auto;
@@ -482,6 +487,9 @@ svg {
   }
   .hero-second-subheading {
     font-size: 18px;
+  }
+  .blue-text {
+    font-size: 20px;
   }
 }
 
