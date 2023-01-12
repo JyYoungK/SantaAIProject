@@ -1,12 +1,10 @@
-# santaAI Project
+# SantaAI Project
 
 - Demo URL: https://santaai.vercel.app/
 
 - ChatGPT-3 is gaining an incredible amount of usage and popularity. So I created one! The theme is you visit a north pole and finds Santa's workroom. You don't see him but you can hear him. He exists!
 
 - Designed for Desktop only.
-
-## Main Stack - M.E.R.N
 
 ### Frontend
 
