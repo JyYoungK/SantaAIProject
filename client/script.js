@@ -106,7 +106,8 @@ const handleSubmit = async (e) => {
   } else {
     const err = await response.text();
 
-    messageDiv.innerHTML = "Something went wrong";
+    messageDiv.innerHTML =
+      "The maximum usage limit for the API has been reached. To fully explore the demo, you can download the file from Github and refer to the README.md guide on how to run it on your local host.";
     alert(err);
   }
 };
