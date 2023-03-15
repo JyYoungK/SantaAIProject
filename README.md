@@ -13,7 +13,7 @@
 
 ### Backend
 
-- Express/Socket
+- Express/Cors
 - ChatGPT
 
 ### Installation
